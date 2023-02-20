@@ -212,7 +212,7 @@ def sell(code="005930", qty="1"):
 try:
     ACCESS_TOKEN = get_access_token()
 
-    symbol_list = ["005930","035720","000660","069500"] # 매수 희망 종목 리스트
+    symbol_list = ["108860","047560","000910","065570"] # 매수 희망 종목 리스트
     bought_list = [] # 매수 완료된 종목 리스트
     total_cash = get_balance() # 보유 현금 조회
     stock_dict = get_stock_balance() # 보유 주식 조회
